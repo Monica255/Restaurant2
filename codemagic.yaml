@@ -16,7 +16,7 @@ workflows:
           -sdk iphonesimulator \
           -allowProvisioningUpdates \
           -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.2' \
-          clean build test CODE_SIGN_IDENTITY="Apple Development" CODE_SIGNING_REQUIRED=NO
+          clean build test CODE_SIGN_IDENTITY="iPhone Developer: Monica Sucianto" CODE_SIGNING_REQUIRED=NO
       - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
