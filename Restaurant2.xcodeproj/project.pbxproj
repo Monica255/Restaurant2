@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6F1A702B4DD58900B9EDF4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A672B4DD58900B9EDF4 /* DetailView.swift */; };
+		DD6F1A712B4DD58900B9EDF4 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A682B4DD58900B9EDF4 /* FavoriteView.swift */; };
+		DD6F1A722B4DD58900B9EDF4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A692B4DD58900B9EDF4 /* ProfileView.swift */; };
+		DD6F1A732B4DD58900B9EDF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A6A2B4DD58900B9EDF4 /* HomeView.swift */; };
+		DD6F1A742B4DD58900B9EDF4 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A6D2B4DD58900B9EDF4 /* Injection.swift */; };
+		DD6F1A752B4DD58900B9EDF4 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A6F2B4DD58900B9EDF4 /* ApiCall.swift */; };
 		DD9150A52B4DCBF500C6E36C /* Restaurant2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150A42B4DCBF500C6E36C /* Restaurant2App.swift */; };
 		DD9150A72B4DCBF500C6E36C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150A62B4DCBF500C6E36C /* ContentView.swift */; };
 		DD9150A92B4DCBF800C6E36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9150A82B4DCBF800C6E36C /* Assets.xcassets */; };
@@ -14,12 +20,6 @@
 		DD9150B62B4DCBF800C6E36C /* Restaurant2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150B52B4DCBF800C6E36C /* Restaurant2Tests.swift */; };
 		DD9150C02B4DCBF800C6E36C /* Restaurant2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150BF2B4DCBF800C6E36C /* Restaurant2UITests.swift */; };
 		DD9150C22B4DCBF800C6E36C /* Restaurant2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150C12B4DCBF800C6E36C /* Restaurant2UITestsLaunchTests.swift */; };
-		DD9150D82B4DCC1700C6E36C /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150D02B4DCC1700C6E36C /* Injection.swift */; };
-		DD9150D92B4DCC1700C6E36C /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150D22B4DCC1700C6E36C /* ApiCall.swift */; };
-		DD9150DA2B4DCC1700C6E36C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150D42B4DCC1700C6E36C /* DetailView.swift */; };
-		DD9150DB2B4DCC1700C6E36C /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150D52B4DCC1700C6E36C /* FavoriteView.swift */; };
-		DD9150DC2B4DCC1700C6E36C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150D62B4DCC1700C6E36C /* ProfileView.swift */; };
-		DD9150DD2B4DCC1700C6E36C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9150D72B4DCC1700C6E36C /* HomeView.swift */; };
 		DD9150E02B4DCC8F00C6E36C /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = DD9150DF2B4DCC8F00C6E36C /* Core */; };
 		DD9150E32B4DCCA300C6E36C /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = DD9150E22B4DCCA300C6E36C /* Detail */; };
 		DD9150E82B4DCD8500C6E36C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DD9150E72B4DCD8500C6E36C /* RxCocoa */; };
@@ -50,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD6F1A672B4DD58900B9EDF4 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DD6F1A682B4DD58900B9EDF4 /* FavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		DD6F1A692B4DD58900B9EDF4 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DD6F1A6A2B4DD58900B9EDF4 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DD6F1A6D2B4DD58900B9EDF4 /* Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		DD6F1A6F2B4DD58900B9EDF4 /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		DD9150A12B4DCBF500C6E36C /* Restaurant2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9150A42B4DCBF500C6E36C /* Restaurant2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant2App.swift; sourceTree = "<group>"; };
 		DD9150A62B4DCBF500C6E36C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,12 +66,6 @@
 		DD9150BB2B4DCBF800C6E36C /* Restaurant2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Restaurant2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9150BF2B4DCBF800C6E36C /* Restaurant2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant2UITests.swift; sourceTree = "<group>"; };
 		DD9150C12B4DCBF800C6E36C /* Restaurant2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DD9150D02B4DCC1700C6E36C /* Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
-		DD9150D22B4DCC1700C6E36C /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
-		DD9150D42B4DCC1700C6E36C /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		DD9150D52B4DCC1700C6E36C /* FavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
-		DD9150D62B4DCC1700C6E36C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		DD9150D72B4DCC1700C6E36C /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD6F1A662B4DD58900B9EDF4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F1A672B4DD58900B9EDF4 /* DetailView.swift */,
+				DD6F1A682B4DD58900B9EDF4 /* FavoriteView.swift */,
+				DD6F1A692B4DD58900B9EDF4 /* ProfileView.swift */,
+				DD6F1A6A2B4DD58900B9EDF4 /* HomeView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DD6F1A6B2B4DD58900B9EDF4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F1A6C2B4DD58900B9EDF4 /* DI */,
+				DD6F1A6E2B4DD58900B9EDF4 /* Util */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DD6F1A6C2B4DD58900B9EDF4 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F1A6D2B4DD58900B9EDF4 /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		DD6F1A6E2B4DD58900B9EDF4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F1A6F2B4DD58900B9EDF4 /* ApiCall.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		DD9150982B4DCBF500C6E36C = {
 			isa = PBXGroup;
 			children = (
@@ -126,8 +162,8 @@
 		DD9150A32B4DCBF500C6E36C /* Restaurant2 */ = {
 			isa = PBXGroup;
 			children = (
-				DD9150CE2B4DCC1700C6E36C /* Core */,
-				DD9150D32B4DCC1700C6E36C /* Presentation */,
+				DD6F1A6B2B4DD58900B9EDF4 /* Core */,
+				DD6F1A662B4DD58900B9EDF4 /* Presentation */,
 				DD9150A42B4DCBF500C6E36C /* Restaurant2App.swift */,
 				DD9150A62B4DCBF500C6E36C /* ContentView.swift */,
 				DD9150A82B4DCBF800C6E36C /* Assets.xcassets */,
@@ -159,44 +195,6 @@
 				DD9150C12B4DCBF800C6E36C /* Restaurant2UITestsLaunchTests.swift */,
 			);
 			path = Restaurant2UITests;
-			sourceTree = "<group>";
-		};
-		DD9150CE2B4DCC1700C6E36C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				DD9150CF2B4DCC1700C6E36C /* DI */,
-				DD9150D12B4DCC1700C6E36C /* Util */,
-			);
-			name = Core;
-			path = ../../MyRestaurant/MyRestaurant/Core;
-			sourceTree = "<group>";
-		};
-		DD9150CF2B4DCC1700C6E36C /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				DD9150D02B4DCC1700C6E36C /* Injection.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		DD9150D12B4DCC1700C6E36C /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				DD9150D22B4DCC1700C6E36C /* ApiCall.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		DD9150D32B4DCC1700C6E36C /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				DD9150D42B4DCC1700C6E36C /* DetailView.swift */,
-				DD9150D52B4DCC1700C6E36C /* FavoriteView.swift */,
-				DD9150D62B4DCC1700C6E36C /* ProfileView.swift */,
-				DD9150D72B4DCC1700C6E36C /* HomeView.swift */,
-			);
-			name = Presentation;
-			path = ../../MyRestaurant/MyRestaurant/Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,13 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD9150D82B4DCC1700C6E36C /* Injection.swift in Sources */,
+				DD6F1A742B4DD58900B9EDF4 /* Injection.swift in Sources */,
+				DD6F1A712B4DD58900B9EDF4 /* FavoriteView.swift in Sources */,
 				DD9150A72B4DCBF500C6E36C /* ContentView.swift in Sources */,
-				DD9150D92B4DCC1700C6E36C /* ApiCall.swift in Sources */,
-				DD9150DA2B4DCC1700C6E36C /* DetailView.swift in Sources */,
-				DD9150DB2B4DCC1700C6E36C /* FavoriteView.swift in Sources */,
-				DD9150DD2B4DCC1700C6E36C /* HomeView.swift in Sources */,
-				DD9150DC2B4DCC1700C6E36C /* ProfileView.swift in Sources */,
+				DD6F1A722B4DD58900B9EDF4 /* ProfileView.swift in Sources */,
+				DD6F1A732B4DD58900B9EDF4 /* HomeView.swift in Sources */,
+				DD6F1A702B4DD58900B9EDF4 /* DetailView.swift in Sources */,
+				DD6F1A752B4DD58900B9EDF4 /* ApiCall.swift in Sources */,
 				DD9150A52B4DCBF500C6E36C /* Restaurant2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
