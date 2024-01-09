@@ -22,7 +22,7 @@ workflows:
           xcodebuild build -project "$XCODE_PROJECT" \
           -scheme "$XCODE_SCHEME" \
           -allowProvisioningUpdates \
-          CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO | tee xcodebuild.log test-without-building
+          CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=YES | tee xcodebuild.log test-without-building
     artifacts:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
     publishing:
