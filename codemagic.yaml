@@ -1,50 +1,30 @@
-workflows:  
-  ios-project-debug: # Workflow ID
-    name: iOS Debug # Workflow name
+workflows:
+  ios-project-debug: # workflow ID
+    name: iOS debug # workflow name
     environment:
-      xcode: latest
+      xcode: "15.1"
       cocoapods: default
       vars:
-          BUNDLE_ID: "com.dicoding.academy.Restaurant2" # replace with your app bundle
-          XCODE_PROJECT: "Restaurant2.xcodeproj" # Replace with your xcodeproj name
-          XCODE_SCHEME: "Restaurant2" # Replace with your project name
-      ios_signing:
-          distribution_type: app_store # or: ad_hoc | development | enterprise
-          bundle_identifier: com.dicoding.academy.Restaurant2 # replace with your app bundle
-    scripts:
+          XCODE_PROJECT: "RestaurantApp.xcodeproj" # Isikan nama project Anda.
+          XCODE_SCHEME: "RestaurantApp" # Isikan nama scheme project Anda.
+    scripts: 
       - name: Run tests
         script: |
           xcodebuild \
           -project "$XCODE_PROJECT" \
           -scheme "$XCODE_SCHEME" \
           -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' \
-          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO          
+          -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.2' \
+          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       - name: Build debug app
         script: |
-          xcodebuild build -project "$XCODE_PROJECT" \
+          xcodebuild build-for-testing \
+          -project "$XCODE_PROJECT" \
           -scheme "$XCODE_SCHEME" \
-          CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO - name: Build ipa for distribution
-      - name: Increment build number
-        script: | 
-          #!/bin/sh
-          cd $CM_BUILD_DIR
-          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
-          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))      
-      - name: Build ipa for distribution
-        script: | 
-          xcode-project build-ipa \
-          --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
-          --scheme "$XCODE_SCHEME"
+          CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO | tee xcodebuild.log test-without-building
     artifacts:
-       - build/ios/ipa/*.ipa
-       - /tmp/xcodebuild_logs/*.log
-       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+          - $$HOME/Library/Developer/Xcode/DerivedData/**/*.app
     publishing:
       email:
         recipients:
-          - monicasucianto123@mail.com # Replace with your email
-      notify:
-          success: true
-          failure: true
+          - monicasucianto123@gmail.com 
