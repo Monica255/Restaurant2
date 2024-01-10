@@ -16,10 +16,10 @@ The app incorporates modularization using Swift Package Manager (SPM) and adhere
 
 ### Modules
 
-1. [**Core Module**](<link to Core module repository>): Contains Core Data implementations.
-2. [**Home Module**](<link to Home module repository>): Displays a list of restaurants.
-3. [**Detail Module**](<link to Detail module repository>): Displays details of a restaurant.
-4. [**Favorite Module**](<link to Favorite module repository>): Manages favorited restaurants.
+1. [**Core Module**](https://github.com/Monica255/Restaurant2/tree/main/Modules/Core): Contains Core Data implementations.
+2. [**Home Module**](https://github.com/Monica255/Restaurant2/tree/main/Modules/Home): Displays a list of restaurants.
+3. [**Detail Module**](https://github.com/Monica255/Restaurant2/tree/main/Modules/Detail): Displays details of a restaurant.
+4. [**Favorite Module**](https://github.com/Monica255/Restaurant2/tree/main/Modules/Favorite): Manages favorited restaurants.
 
 ## Clean Architecture
 
@@ -33,9 +33,9 @@ Dependency Injection is implemented throughout the app, facilitating loose coupl
 
 Reactive Programming is utilized using RxSwift to enhance the app's responsiveness and maintainability. The use of reactive patterns ensures a reactive and scalable architecture.
 
-## Design Changes
+## Wireframe Design
 
-The following design changes have been incorporated into the app:
+The following design have been incorporated into the app:
 
-- [Link to lo-fi/mockup/wireframe changes](<link to design changes>): Description of design changes and rationale.
+- [Link to lo-fi/mockup/wireframe changes](<link to design changes>)
 
