@@ -36,6 +36,8 @@ Reactive Programming is utilized using RxSwift to enhance the app's responsivene
 ## Wireframe Design
 
 The following design have been incorporated into the app:
+![App Screenshot](https://github.com/Monica255/Restaurant2/blob/main/Wireframe%20-%20Expert%20Class.png)
 
-- [Link to lo-fi/mockup/wireframe changes](<link to design changes>)
+
+- [Link to lo-fi/mockup/wireframe](https://www.figma.com/file/vlgkmplfZUpkUHmQiehQug/Restaurants?type=design&node-id=0%3A1&mode=design&t=j3rzQB3C4PXZditP-1)
 
