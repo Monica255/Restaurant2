@@ -24,7 +24,7 @@ workflows:
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     artifacts:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-    # publishing:
-    #   email:
-    #     recipients:
-    #       - monicasucianto123@gmail.com 
+    publishing:
+      email:
+        recipients:
+          - monicasucianto123@gmail.com 
