@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD172B372B4F0B5400E34B46 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = DD172B362B4F0B5400E34B46 /* Core */; };
+		DD172B3A2B4F0B8B00E34B46 /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = DD172B392B4F0B8B00E34B46 /* Detail */; };
+		DD172B3D2B4F0BA000E34B46 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = DD172B3C2B4F0BA000E34B46 /* Favorite */; };
+		DD172B402B4F0BA800E34B46 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = DD172B3F2B4F0BA800E34B46 /* Home */; };
 		DD6F1A702B4DD58900B9EDF4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A672B4DD58900B9EDF4 /* DetailView.swift */; };
 		DD6F1A712B4DD58900B9EDF4 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A682B4DD58900B9EDF4 /* FavoriteView.swift */; };
 		DD6F1A722B4DD58900B9EDF4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1A692B4DD58900B9EDF4 /* ProfileView.swift */; };
@@ -74,8 +78,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9150F52B4DCE3A00C6E36C /* Favorite in Frameworks */,
+				DD172B3A2B4F0B8B00E34B46 /* Detail in Frameworks */,
 				DD9150F12B4DCE2500C6E36C /* Realm in Frameworks */,
 				DD9150ED2B4DCDE600C6E36C /* Alamofire in Frameworks */,
+				DD172B372B4F0B5400E34B46 /* Core in Frameworks */,
 				DD9150F32B4DCE2500C6E36C /* RealmSwift in Frameworks */,
 				DD9150F92B4DCE7D00C6E36C /* SimpleToast in Frameworks */,
 				DD9150E82B4DCD8500C6E36C /* RxCocoa in Frameworks */,
@@ -83,6 +89,8 @@
 				DD9150EA2B4DCD8500C6E36C /* RxRelay in Frameworks */,
 				DD9150E32B4DCCA300C6E36C /* Detail in Frameworks */,
 				DD9150F72B4DCE4300C6E36C /* Home in Frameworks */,
+				DD172B3D2B4F0BA000E34B46 /* Favorite in Frameworks */,
+				DD172B402B4F0BA800E34B46 /* Home in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +232,10 @@
 				DD9150F42B4DCE3A00C6E36C /* Favorite */,
 				DD9150F62B4DCE4300C6E36C /* Home */,
 				DD9150F82B4DCE7D00C6E36C /* SimpleToast */,
+				DD172B362B4F0B5400E34B46 /* Core */,
+				DD172B392B4F0B8B00E34B46 /* Detail */,
+				DD172B3C2B4F0BA000E34B46 /* Favorite */,
+				DD172B3F2B4F0BA800E34B46 /* Home */,
 			);
 			productName = Restaurant2;
 			productReference = DD9150A12B4DCBF500C6E36C /* Restaurant2.app */;
@@ -298,14 +310,14 @@
 			);
 			mainGroup = DD9150982B4DCBF500C6E36C;
 			packageReferences = (
-				DD9150DE2B4DCC8F00C6E36C /* XCLocalSwiftPackageReference "Modules/Core" */,
-				DD9150E12B4DCCA300C6E36C /* XCLocalSwiftPackageReference "Modules/Detail" */,
-				DD9150E42B4DCCC400C6E36C /* XCLocalSwiftPackageReference "Modules/Favorite" */,
-				DD9150E52B4DCD6600C6E36C /* XCLocalSwiftPackageReference "Modules/Home" */,
 				DD9150E62B4DCD8500C6E36C /* XCRemoteSwiftPackageReference "RxSwift" */,
 				DD9150EB2B4DCDE600C6E36C /* XCRemoteSwiftPackageReference "Alamofire" */,
 				DD9150EE2B4DCDF800C6E36C /* XCRemoteSwiftPackageReference "SimpleToast" */,
 				DD9150EF2B4DCE2500C6E36C /* XCRemoteSwiftPackageReference "realm-swift" */,
+				DD172B352B4F0B5400E34B46 /* XCLocalSwiftPackageReference "Modules/Core" */,
+				DD172B382B4F0B8B00E34B46 /* XCLocalSwiftPackageReference "Modules/Detail" */,
+				DD172B3B2B4F0BA000E34B46 /* XCLocalSwiftPackageReference "Modules/Favorite" */,
+				DD172B3E2B4F0BA800E34B46 /* XCLocalSwiftPackageReference "Modules/Home" */,
 			);
 			productRefGroup = DD9150A22B4DCBF500C6E36C /* Products */;
 			projectDirPath = "";
@@ -700,19 +712,19 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		DD9150DE2B4DCC8F00C6E36C /* XCLocalSwiftPackageReference "Modules/Core" */ = {
+		DD172B352B4F0B5400E34B46 /* XCLocalSwiftPackageReference "Modules/Core" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Modules/Core;
 		};
-		DD9150E12B4DCCA300C6E36C /* XCLocalSwiftPackageReference "Modules/Detail" */ = {
+		DD172B382B4F0B8B00E34B46 /* XCLocalSwiftPackageReference "Modules/Detail" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Modules/Detail;
 		};
-		DD9150E42B4DCCC400C6E36C /* XCLocalSwiftPackageReference "Modules/Favorite" */ = {
+		DD172B3B2B4F0BA000E34B46 /* XCLocalSwiftPackageReference "Modules/Favorite" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Modules/Favorite;
 		};
-		DD9150E52B4DCD6600C6E36C /* XCLocalSwiftPackageReference "Modules/Home" */ = {
+		DD172B3E2B4F0BA800E34B46 /* XCLocalSwiftPackageReference "Modules/Home" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Modules/Home;
 		};
@@ -754,6 +766,22 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DD172B362B4F0B5400E34B46 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		DD172B392B4F0B8B00E34B46 /* Detail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Detail;
+		};
+		DD172B3C2B4F0BA000E34B46 /* Favorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Favorite;
+		};
+		DD172B3F2B4F0BA800E34B46 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
 		DD9150DF2B4DCC8F00C6E36C /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
